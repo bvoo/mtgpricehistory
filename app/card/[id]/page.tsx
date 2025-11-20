@@ -7,6 +7,8 @@ import { useParams } from 'next/navigation';
 import PriceChart from '@/components/PriceChart';
 import { Loader2, ArrowLeft } from 'lucide-react';
 
+export const runtime = 'edge';
+
 interface Print {
     id: number;
     name: string;
